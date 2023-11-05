@@ -12,18 +12,19 @@ function ReservationDetail() {
     if (personCount === '-1'){
       alert('Select Person Count')
     }else{
+      const newReserv = {
+        name,
+        email,
+        date,
+        time,
+        personCount
+      }
       const res = await fetch('http://localhost:4000/reserve' , {
         method:'POST',
         headers:{
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({
-          name,
-          email,
-          date,
-          time,
-          personCount
-        })
+        body: JSON.stringify(newReserv)
       })
       if (res.status === 201) {
         setName('')
