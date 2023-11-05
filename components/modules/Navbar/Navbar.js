@@ -1,18 +1,48 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
+import {useRouter} from "next/router";
 
 function Navbar() {
+  const [search, setSearch] = useState('')
+  const route = useRouter()
+
+  const searchHandler = () => {
+    if (search.trim()){
+      route.push(`/search?q=${search}`)
+    }
+
+  }
+  const searchHandlerWithEnter = (e) => {
+    if (e.keyCode === 13){
+      searchHandler()
+    }
+  }
+
   return (
     <div className={`container-fluid p-0 ${styles.nav_bar}`}>
       <nav
         className={`${styles.navbar} ${styles.navbar_expand_lg} bg-none navbar-dark py-3`}
       >
-        <a href="/" className={`${styles.navbar_brand} px-lg-4 m-0`}>
-          <h1 className="m-0 display-4 text-uppercase text-white">
-            Next-Coffee
-          </h1>
-        </a>
+        <div className="d-flex align-items-center position-relative gap-2 ">
+          <Link href="/" className={`${styles.navbar_brand} px-lg-4 m-0`}>
+            <h1 className="m-0 display-4 text-uppercase text-white">
+              Next-Coffee
+            </h1>
+          </Link>
+
+          <input
+              value={search}
+              onChange={e=> setSearch(e.target.value)}
+              onKeyDown={searchHandlerWithEnter}
+              type="text"
+              className={styles.search_input}
+              placeholder="Search..."
+          />
+          <button className='bg-transparent border-white border-1 text-white rounded p-1' onClick={searchHandler}>
+            Search
+          </button>
+        </div>
         <button
           type="button"
           className={`${styles.navbar_toggler}`}
