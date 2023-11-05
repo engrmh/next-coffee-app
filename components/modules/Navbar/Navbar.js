@@ -8,9 +8,11 @@ function Navbar() {
       <nav
         className={`${styles.navbar} ${styles.navbar_expand_lg} bg-none navbar-dark py-3`}
       >
-        <Link href="/" className={`${styles.navbar_brand} px-lg-4 m-0`}>
-          <h1 className="m-0 display-4 text-uppercase text-white">Next-Coffee</h1>
-        </Link>
+        <a href="index.html" className={`${styles.navbar_brand} px-lg-4 m-0`}>
+          <h1 className="m-0 display-4 text-uppercase text-white">
+            Next-Coffee
+          </h1>
+        </a>
         <button
           type="button"
           className={`${styles.navbar_toggler}`}
@@ -30,35 +32,45 @@ function Navbar() {
             >
               Home
             </Link>
+
             <Link href="/about" className={`${styles.nav_link}`}>
               About
             </Link>
             <Link href="/services" className={`${styles.nav_link}`}>
-              Service
+              Services
             </Link>
             <Link href="/menu" className={`${styles.nav_link}`}>
               Menu
             </Link>
+
             <div className={`${styles.dropdown}`}>
-              <Link
+              <a
                 href="#"
                 className={`${styles.nav_link} ${styles.dropdown_toggle}`}
                 data-toggle="dropdown"
               >
                 Pages
-              </Link>
-              <div className={`${styles.dropdown_menu} ${styles.text_capitalize}`}>
-                <Link href="/reservation" className={`${styles.dropdown_item}`}>
+              </a>
+              <div
+                className={`${styles.dropdown_menu} ${styles.text_capitalize}`}
+              >
+                <a
+                  href="reservation.html"
+                  className={`${styles.dropdown_item}`}
+                >
                   Reservation
-                </Link>
-                <Link href="/testimonial" className={`${styles.dropdown_item}`}>
+                </a>
+                <a
+                  href="testimonial.html"
+                  className={`${styles.dropdown_item}`}
+                >
                   Testimonial
-                </Link>
+                </a>
               </div>
             </div>
-            <Link href="/contact" className={`${styles.nav_link}`}>
+            <a href="contact.html" className={`${styles.nav_link}`}>
               Contact
-            </Link>
+            </a>
           </div>
         </div>
       </nav>
