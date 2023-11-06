@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28f2a28f-b07a-4552-860d-7e9c342e395e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/templates/Product/Comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/templates/Product/ProductDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/modules/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modules/Card/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product/[id].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Product.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/Product/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Product/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/db.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <workItem from="1699128044543" duration="7000" />
       <workItem from="1699177171186" duration="404000" />
       <workItem from="1699197389836" duration="2854000" />
-      <workItem from="1699284677969" duration="5446000" />
+      <workItem from="1699284677969" duration="6311000" />
     </task>
     <servers />
   </component>
