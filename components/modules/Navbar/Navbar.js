@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
 import {useRouter} from "next/router";
@@ -6,6 +6,10 @@ import {useRouter} from "next/router";
 function Navbar() {
   const [search, setSearch] = useState('')
   const route = useRouter()
+
+  useEffect(()=>{
+    setSearch(route.query.q)
+  },[])
 
   const searchHandler = () => {
     if (search.trim()){

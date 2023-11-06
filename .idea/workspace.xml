@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="28f2a28f-b07a-4552-860d-7e9c342e395e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/modules/ServiceItem/ServiceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modules/ServiceItem/ServiceItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/templates/Services/ServicesDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Services/ServicesDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/modules/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modules/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +28,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/galahad/Desktop/My Code In Learning/sabzlearn my code/Next/coffee/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/galahad/Desktop/My Code In Learning/sabzlearn my code/Next/coffee/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
@@ -72,6 +71,7 @@
       <workItem from="1699128044543" duration="7000" />
       <workItem from="1699177171186" duration="404000" />
       <workItem from="1699197389836" duration="2854000" />
+      <workItem from="1699284677969" duration="3630000" />
     </task>
     <servers />
   </component>
